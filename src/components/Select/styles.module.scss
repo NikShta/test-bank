@@ -1,0 +1,57 @@
+.select_wrapper {
+  position: relative;
+  width: 181px;
+  height: 43px;
+  border-radius: 10px;
+  border: 1px solid #DAD6D6;
+  ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+  }
+  /* Optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  & img {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+  }
+}
+
+.select {
+  overflow-y: scroll;
+  height: 172px;
+  background-color: #fff;
+  position: absolute;
+  top: 48px;
+  z-index: 3;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.placeholder {
+  display: flex;
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  align-items: center;
+  height: 100%;
+}
+
+.spinner_wrapper {
+  width: 100%;
+  margin-top: 7px;
+  border: 1px solid #DAD6D6;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}

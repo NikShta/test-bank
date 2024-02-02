@@ -1,0 +1,9 @@
+@use 'sass:math';
+@import 'reset';
+@import 'mixins';
+
+html,
+body {
+  height: 100%;
+  font-family: 'Kreon', sans-serif;
+}

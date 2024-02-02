@@ -1,9 +1,12 @@
 import React from "react";
+import {Router} from "@routes/Router";
 
-const App = () => (
-  <div>
-    <h1>Hello, World!</h1>
-  </div>
+import "./styles/main.scss";
+
+const App: React.FC = () => (
+  <>
+    <Router />
+  </>
 );
 
 export default App;
