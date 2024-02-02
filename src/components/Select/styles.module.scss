@@ -37,6 +37,14 @@
   }
 }
 
+.chevron {
+  transition: all .2s ease-in-out;
+}
+
+.chevron_open {
+  rotate: 180deg;
+}
+
 .placeholder {
   display: flex;
   padding-left: 15px;

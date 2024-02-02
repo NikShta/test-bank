@@ -55,6 +55,7 @@ export const Select: FC<SelectProps> = ({
         onClick={handlePlaceHolderClick}
         src="/chevron-down.svg"
         alt="chevron down"
+        className={`${isOpen && styles.chevron_open} ${styles.chevron}`}
       />
       <div
         className={styles.placeholder}
